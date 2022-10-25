@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.markuro
+{
+    background: rgba(243, 212, 163, 0.452);
+    /* opacity:0.9; */
+    position: absolute;
+    top:0;
+    left: 0;
+    
+}
+
+
+.background{
+    /* background-color: aqua; */
+
+    background: url(成品.png) no-repeat;
+    
+    display: flex;
+    justify-content: center;
+    margin-left: 5vw;
+    width: 89vw;
+    height: 100vh;
+    background-size: 100% 100%;
+}
+
+
+.screenShot{
+    
+    background-size: 100% 100%;
+    width: 8vw;
+    height: 9vh;
+    object-fit: fill;
+    position: absolute;
+    bottom: 87vh;
+    right: 10vw;
+    /* border-radius: 100px; */
+    cursor: pointer;
+}
+.reDo{
+    
+    background-size: 100% 100%;
+    position: absolute;
+    /* width: 13vw;
+    height: 10vh; */
+    bottom: 87vh;
+    left: 10vw;
+    cursor: pointer;
+}
+img:hover{
+    /* overflow: hidden; */
+    transform: scale(120%,120%);
+    -webkit-transform: scale(120%,120%);
+    -moz-transform: scale(120%,120%);
+}
